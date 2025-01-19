@@ -1,25 +1,26 @@
-
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
- 
-    
-}
-  /* body  */
-  body{
-    background-color: rgba(241, 241, 243, 1);
-    width: 1280px;
-    margin: 0 auto;
-   
 
-  }
+
+}
+
+/* body  */
+body {
+    background-color: rgba(241, 241, 243, 1);
+    max-width: 1280px;
+    margin: 0 auto;
+
+
+}
+
 /* share style */
 
 
 
 /* header style  */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -29,23 +30,27 @@
     margin-bottom: 80px;
     border-radius: 24px;
 }
-  .banner-content{
-     margin: 117px 64px 117px 64px;
-  }
-  .banner-header{
-    color:rgba(14, 14, 14, 0.5); 
+
+.banner-content {
+    margin: 117px 64px 117px 64px;
+}
+
+.banner-heading {
+    color: rgba(14, 14, 14, 0.5);
     font-size: 24;
-  }
-  .banner-description{
+}
+
+.banner-description {
     color: rgba(14, 14, 14, 1);
     font-size: 56px;
-    text-align:left;
+    text-align: left;
     font-weight: 700;
-    
 
-  }
-  .banner-button{
-    color:rgba(255, 255, 255, 1);
+
+}
+
+.banner-button {
+    color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 106, 80, 1);
     font-size: 18px;
     font-weight: 600;
@@ -55,9 +60,76 @@
     border-radius: 8px;
 
 
-  }
-  .banner-img{
-    margin:80px 60px 80px 0;
+}
 
-  }
+.banner-img {
+    margin: 80px 60px 80px 0;
 
+}
+
+/*  vision-section   */
+
+.vision-title{
+font-size: 40px;
+font-weight: 700;
+}
+.vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto;
+    gap: 24px;
+
+}
+.item{
+padding: 32px;
+
+
+}
+.item-1{
+    background-color:rgba(84, 144, 245, 0.2) ;
+    border-radius: 8px;
+    
+}
+.item-2{
+    background-color:rgba(198, 228, 214, 1) ;
+    border-radius: 8px;  
+}
+.item-3{
+    background-color:rgba(247, 235, 207, 1) ;   
+    border-radius: 8px;
+}
+.item-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight:700;
+    font-size: 20px;
+}
+.item-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+.item-button{
+    font-size: 16px;
+    font-weight:600;
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+    width: 122px;
+    height: 41px;
+}
+.item-button-1{
+    background-color:rgba(84, 144, 245, 1) ;
+    border-radius: 8px;
+
+}
+.item-button-2{
+    background-color:rgba(9, 161, 92, 1) ;  
+    border-radius: 8px;
+}
+.item-button-3{
+    background-color:rgba(255, 194, 57, 1) ; 
+    border-radius: 8px;  
+}
