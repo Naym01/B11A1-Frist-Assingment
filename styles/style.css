@@ -1,8 +1,21 @@
-.fira-sans-regular{
+.fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
 
+
+}
+
+/* share style */
+
+.text-center {
+    text-align: center;
+}
+
+
+.hover-button:hover {
+    color: aqua;
+    background-color: rgb(72, 139, 17);
 
 }
 
@@ -15,11 +28,7 @@ body {
 
 }
 
-/* share style */
 
- .text-center{
-    text-align: center;
- }
 
 /* header style  */
 .banner {
@@ -168,13 +177,16 @@ body {
     margin-bottom: 24px;
 
 }
-.recent-img{
+
+.recent-img {
     border-radius: 24px;
     margin: 48px 32px 48px 48px;
 }
-.recent-contant{
-    margin: 56px 48px 56px 0px ;
+
+.recent-contant {
+    margin: 56px 48px 56px 0px;
 }
+
 .recent-content-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 32px;
@@ -186,105 +198,107 @@ body {
     color: rgba(14, 14, 14, 0.7);
     display: flex;
     gap: 12px;
-   
-    
+
+
 }
 
-.recent-contant-description li {
- 
-    
-}
+.recent-contant-description li {}
 
 .recent-contant-description2 {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
-.recent-button{
+
+.recent-button {
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
-font-weight: 600;
-background-color: rgba(0, 106, 80, 1);
-width: 129px;
-height:48px;
-border-style: none;
-border-radius: 8px ;
+    font-weight: 600;
+    background-color: rgba(0, 106, 80, 1);
+    width: 129px;
+    height: 48px;
+    border-style: none;
+    border-radius: 8px;
 }
+
 /* recent section 2nd banner/ card   */
-.recent-img2{
+.recent-img2 {
     border-radius: 24px;
-    margin: 56px 48px 56px 0px ;
+    margin: 56px 48px 56px 0px;
 }
-.recent-contant2{
-    
+
+.recent-contant2 {
+
     margin: 48px 32px 48px 48px;
 }
 
 /* donate section style */
-.donate{
-  
-}
+.donate {}
 
-.donate-title{
+.donate-title {
     font-size: 40px;
     font-weight: 700;
 }
+
 .donate-description {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
-    
-   
+
+
 }
 
-.taka-container{
+.taka-container {
     display: flex;
     justify-content: space-around;
 
 }
-.taka-button{
+
+.taka-button {
     color: rgba(14, 14, 14, 0.8);
     font-size: 40px;
     border-radius: 16px;
     width: 252px;
     height: 128px;
     border-style: none;
-    background-color:rgba(255, 255, 255, 1);
-   
+    background-color: rgba(255, 255, 255, 1);
+
 
 }
-.taka-button2{
+
+.taka-button2 {
     color: rgba(14, 14, 14, 0.8);
     font-size: 40px;
     border-radius: 16px;
     width: 252px;
     height: 128px;
     border-style: none;
-    background-color:rgba(198, 228, 214, 1);
+    background-color: rgba(198, 228, 214, 1);
 
 }
 
 
 
-.text-fill{
+.text-fill {
     width: 1032px;
     height: 64px;
-   display: block; 
-   margin: 32px auto;
-   border-style:none;
-   color: rgba(14, 14, 14, 0.3);
-   font-size: 20px;
+    display: block;
+    margin: 32px auto;
+    border-style: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
 
 
 
 }
-.done-now-button{
+
+.done-now-button {
     display: block;
     color: rgba(255, 255, 255, 1);
     border-radius: 8px;
     width: 151px;
     height: 56px;
-   background-color: rgba(0, 106, 80, 1);
-   margin: 0px auto;
-   border-style: none;
+    background-color: rgba(0, 106, 80, 1);
+    margin: 0px auto;
+    border-style: none;
 
 
 }
