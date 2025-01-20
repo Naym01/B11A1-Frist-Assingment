@@ -157,6 +157,35 @@ body {
     background-color: rgba(255, 194, 57, 1);
     border-radius: 8px;
 }
+/* man sectin  */
+
+.man-secton{
+    background-color:rgba(255, 255, 255, 1);
+ 
+    border-radius:16px ;
+    padding: 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+    
+
+}
+.man-description{
+font-size: 16px; 
+color: rgba(14, 14, 14, 0.8);
+}
+.man-title{
+    font-size: 20px;
+    font-weight:600;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+.man-small-descripton{
+font-size: 16px;
+color: rgba(14, 14, 14, 0.6);
+
+}
+
 
 /* recent-section style  */
 .recent-title {
@@ -175,6 +204,7 @@ body {
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 1);
     margin-bottom: 24px;
+    border-radius: 24px;
 
 }
 
@@ -307,6 +337,7 @@ footer{
     background-color: rgba(198, 228, 214, 1);
     padding: 80px 256px;
     margin: 80px 0px;
+    border-radius:24px;
 }
 .footer-title{
     font-size: 40px;
@@ -328,7 +359,9 @@ footer{
     width: 600px;
     height: 55px;
     font-size: 16px;  
-  
+    border-top-left-radius:8px ;
+    border-bottom-left-radius: 8px;
+    border-style: none;
 
 
 }
@@ -337,7 +370,9 @@ footer{
     color: rgba(255, 255, 255, 1);
     width: 150px;
     height: 60px;
-
+    border-top-right-radius:8px ;
+    border-bottom-right-radius: 8px;
+    border-style: none;
 
 }
 .footer-ending{
